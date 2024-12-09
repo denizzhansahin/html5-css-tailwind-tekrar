@@ -142,3 +142,27 @@ table td:hover{
     --main_ color:white;
     --main_bgcolor:#000;
 }
+
+
+div+p{
+    color:blue;
+    background-color: green;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+}
+
+.flex_item{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f00;
+    box-shadow: 10px 1px 10px 1px rgb(108, 9, 201);
+}

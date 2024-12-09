@@ -76,3 +76,54 @@ h2{
     color:#000;
     background-color: #f00;
 }
+
+html{
+    font-size: 10px;
+}
+
+body{
+    padding: 0 10%;
+}
+
+#ul_id{
+    list-style-type: square;
+    list-style-type: none;
+}
+
+#ul_id li{
+    color:blue;
+    border:1px solid rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding: 0;
+}
+
+#ul_id li:hover{
+    color:beige;
+    background-color: black;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+
+table th{
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+table td{
+    background-color: #f00;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    border:1px solid #000
+}
+
+table td:hover{
+    background-color: white;
+    color:#f00
+}

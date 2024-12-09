@@ -2,3 +2,18 @@ h2{
     color: orange;
     background-color: black;
 }
+
+#parag_id{
+    font-size: small !important;
+    font-family: 'Gill Sans','Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 1.2;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: capitalize !important;
+    text-shadow: 0.5px -0.6px 4px blue;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    word-spacing: 50px !important;
+}
